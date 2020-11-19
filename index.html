@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper Project</title>
+    <link rel="stylesheet" href="css/Mine Sweeper.css">
+</head>
+
+<body onload="initGame()">
+    <h1>Mine Sweeper</h1>
+    <div class="deatils">
+        <button onclick="undo(this)" class="undo">Undo</button>
+        <h3 class="live">❤️❤️❤️</h3>
+        <button onclick="hins(this)" class="hins hins1"> ❔ </button>
+        <button onclick="hins(this)" class="hins hins2"> ❔</button>
+        <button onclick="hins(this)" class="hins hins3"> ❔</button>
+        <button onclick="safeClick(this)" class="safe-click"> Safe-click📍</button>
+        
+    </div>
+   
+        <button onclick="restersGame()" class="smile">🙂</button>
+        <h2>Seconds : <span>0</span></h2>
+
+  
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+
+    <div class="level">
+        <button onclick="beginLevel()">Beginner </button>
+        <button onclick="mediumLevel()">Medium</button>
+        <button onclick="expertLevel()">Expert</button>
+    </div>
+    <h4>🏆 🥇The best scoor for this level is:</h4>
+    <div class="result"></div>
+    <script src="js/util.js"></script>
+    <script src="js/game.js"></script>
+
+</body>
+
+</html>
