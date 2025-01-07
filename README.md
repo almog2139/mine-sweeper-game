@@ -1,4 +1,5 @@
 # Minesweeper - Vanilla JavaScript Game
+URL https://almog2139.github.io/mine-sweeper3/
 
 **Minesweeper** is a classic puzzle game built with **Vanilla JavaScript**. The goal of the game is to clear a grid of hidden mines without detonating any of them. The game provides an interactive interface where players can reveal tiles and mark suspected mines.
 
@@ -21,5 +22,5 @@
    ```bash
    git clone https://github.com/almog2139/minesweeper.git
 ![Screenshot](https://github.com/user-attachments/assets/986f56fd-7ddf-4fbd-ac2d-20faa1e2d807)
-URL https://almog2139.github.io/mine-sweeper3/
+
 
